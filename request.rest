@@ -1,0 +1,38 @@
+GET http://localhost:3003/users 
+###
+
+POST http://localhost:3003/users 
+Content-Type: application/json 
+
+{
+    "name": "Brito",
+    "email":"adrianobrito@gmail",
+    "password": "labenu123"
+}
+###
+
+POST http://localhost:3003/products 
+Content-Type: application/json 
+
+{
+    "name": "Teclado",
+    "price": 25,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61cJ1-gYe9L.__AC_SX300_SY300_QL70_ML2_.jpg"
+}
+
+###
+GET http://localhost:3003/products 
+
+###
+GET http://localhost:3003/users/3/purchases 
+
+###
+
+POST http://localhost:3003/purchases 
+Content-Type: application/json 
+
+{
+    "user_id": 1,
+    "products_id": 2,
+    "quantity": 6
+}

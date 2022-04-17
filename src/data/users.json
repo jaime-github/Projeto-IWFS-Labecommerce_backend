@@ -1,0 +1,16 @@
+[
+   {
+      "id" :1,
+      "name":  "Alice",
+      "nickname":  "Lili",
+      "email": "alice@gmail.com",
+      "address":  "Avenida Portugal, 637 - Jardim Atlântico (31550-000) - Belo Horizonte, MG"
+   },
+   {
+      "id" :2,
+      "name":  "Bob",
+      "nickname":  "Robert",
+      "email": "bob@gmail.com",
+      "address":  "Rua Marechal Hermes, 542 - Juvevê (80530-230) - Curitiba, PR"
+   }
+]
